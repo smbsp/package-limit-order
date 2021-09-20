@@ -1,12 +1,12 @@
 {
-  "name": "@smbsp/limitorder",
+  "name": "@stanmarsh8867/limitorder",
   "version": "0.0.1",
   "description": "Contract addresses and ABIs used for limit orders",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "smbsp",
+  "author": "stanmarsh8867",
   "license": "ISC",
   "repository": {
     "url": "https://github.com/smbsp/package-limit-order"
