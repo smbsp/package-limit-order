@@ -1,0 +1,49 @@
+[
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "addr",
+                "type": "address"
+            }
+        ],
+        "name": "RSKAddrValidator_checkPKNotZero",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "pure",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "addr1",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "addr2",
+                "type": "address"
+            }
+        ],
+        "name": "RSKAddrValidator_safeEquals",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "pure",
+        "type": "function"
+    }
+]

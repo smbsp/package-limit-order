@@ -1,0 +1,27 @@
+[
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "internalType": "address",
+                "name": "prevModuleContractAddress",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "internalType": "address",
+                "name": "newModuleContractAddress",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "internalType": "bytes32",
+                "name": "module",
+                "type": "bytes32"
+            }
+        ],
+        "name": "ProtocolModuleContractReplaced",
+        "type": "event"
+    }
+]

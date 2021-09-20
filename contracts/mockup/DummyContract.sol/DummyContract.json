@@ -1,0 +1,27 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "cSOV1",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "cSOV2",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "SOV",
+                "type": "address"
+            }
+        ],
+        "name": "approveTokens",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]

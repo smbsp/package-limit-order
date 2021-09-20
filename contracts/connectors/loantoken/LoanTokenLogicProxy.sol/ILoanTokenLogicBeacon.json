@@ -1,0 +1,23 @@
+[
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "internalType": "bytes4",
+                "name": "functionSignature",
+                "type": "bytes4"
+            }
+        ],
+        "name": "getTarget",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "logicTargetAddress",
+                "type": "address"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "baseToken",
+        "outputs": [
+            {
+                "internalType": "contract IWrbtcERC20",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "wrbtcToken",
+        "outputs": [
+            {
+                "internalType": "contract IWrbtcERC20",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

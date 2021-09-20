@@ -1,0 +1,47 @@
+[
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "beaconAddress",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_beaconAddress",
+                "type": "address"
+            }
+        ],
+        "name": "initializeLoanTokenProxy",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_newBeaconAddress",
+                "type": "address"
+            }
+        ],
+        "name": "setBeaconAddress",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]
