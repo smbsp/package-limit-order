@@ -9,17 +9,17 @@ This package will default to using testnet settings. To use mainnet setting you 
 - WEB3_PROVIDER= mainnet node url
 
 To import just an address:
-`import { addresses } from "@smbsp/limitorder";`
+`import { addresses } from "@stanmarsh8867/limitorder";`
 
 To get an individual address:
 `const BTC_address = addresses.BTC_token;`
 
 To import a single contract:
-`import { BTC_lending } from "@smbsp/limitorder";`
+`import { BTC_lending } from "@stanmarsh8867/limitorder";`
 where BTC_lending is the name of the contract.
 
 To import all contracts as a single object where keys are contract names:
-`import { contracts } from "@smbsp/limitorder";`
+`import { contracts } from "@stanmarsh8867/limitorder";`
 where contracts.BTC_lending is the BTC_lending contract.
 
 Github repo is here: https://github.com/smbsp/package-limit-order
